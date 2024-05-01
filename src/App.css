@@ -1,0 +1,83 @@
+body {
+  font-family: "Handjet", sans-serif;
+  background-color: black;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .tag-block {
+      display: flex;
+  }
+
+  .tag-header {
+      padding: 30px; 
+      font-size: 3.7em;
+  }
+
+  .center-tag-hero {
+    margin-top: -10%;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .tag-block {
+      display: block;
+  }
+
+  .tag-header {
+      text-align: center;
+      font-size: 1.5em;
+      margin-bottom: 1.1em;
+  }
+
+  .center-tag-hero {
+    margin-top: -30%;
+  }
+}
+
+.tag-block {
+  padding-top: 100px;
+}
+
+.center-tag {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center-tag-hero {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+
+.tag-center {
+  text-align: center;
+}
+
+
+.hero-text {
+  font-size: 2rem;
+  color: white;
+  -webkit-text-stroke: 1px #F8F8F8;
+  text-shadow: 0px 2px 4px #ccced2;
+}
+
+.tag-header {
+  /* font-size: 4.5rem; */
+  color: white;
+  -webkit-text-stroke: 1px #F8F8F8;
+  text-shadow: 0px 2px 4px #ccced2;
+  /* padding: 30px; */
+}
+
+.tag-header:hover {
+  background-color: #e3b73e4e;
+  border-radius: 8px;
+  cursor: pointer;
+}
