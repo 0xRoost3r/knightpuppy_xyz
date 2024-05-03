@@ -47,7 +47,10 @@ const Cloud1 = () => {
 
   });
   return (
-    <Sprite y={size.height/9} x={x} height={cloud2.height} width={cloud2.width} image="/image/cloud.png" />
+    <>
+      <Sprite y={size.height/9} x={x + 200} height={cloud2.height * 0.8} width={cloud2.width  * 0.8} image="/image/cloud.png" />
+      <Sprite y={size.height/9} x={x} height={cloud2.height} width={cloud2.width} image="/image/cloud.png" />
+    </>
   );
 };
 
@@ -57,7 +60,7 @@ const Castle  = () => {
   const screenSpacing = isMobile ? size.width : size.width / 2;
   const castle = {width: 641/6, height: 1440/6};
   const tree2 = {width: 1109/10, height: 1440/10}; // tree left side
-  const [x, setX] = useState(size.width * 2);
+  const [x, setX] = useState(size.width * 1.5);
 
   // custom ticker
   useTick(delta => {
