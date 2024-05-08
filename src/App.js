@@ -158,10 +158,10 @@ function App() {
       </div>
       <div className="center-tag">
         <div className='tag-block'>
-          <div className='tag-header'><a href='https://doc.knightpuppy.xyz/knight-puppy-intro/barkleys-story' target='_blank'>STORY</a></div>
-          <div className='tag-header'><a href='https://doc.knightpuppy.xyz' target='_blank'>DOC</a></div>
-          <div className='tag-header'><a href='#' target='_blank'>GITHUB</a></div>
-          <div className='tag-header'><a href='https://mirror.xyz/0xb75F3f37731cE57A95251d77bE4d7E63fe6fC6e7' target='_blank'>MIRROR</a></div>
+          <div className='tag-header'><a href='https://doc.knightpuppy.xyz' target='_blank'>Doc</a></div>
+          <div className='tag-header'><a href='https://twitter.com/knightpuppy_xyz' target='_blank'>Twitter</a></div>
+          <div className='tag-header'><a href='https://mirror.xyz/0xb75F3f37731cE57A95251d77bE4d7E63fe6fC6e7' target='_blank'>Mirror</a></div>
+          <div className='tag-header'><a href='#' target='_blank'>App</a></div>
         </div>
       </div>
       
